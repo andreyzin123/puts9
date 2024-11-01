@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction:line; /* Itens empilhados verticalmente */
+    margin: 20px;
+}
+
+.left-panel {
+    width: 0%; /* Painel ocupa toda a largura */
+    padding: 20px;
+}
+
+.grid {
+    width: 100%; /* Grid ocupa toda a largura */
+    display: grid;
+    grid-template-rows: repeat(2, 1fr); /* Três colunas */
+    gap: 15px; /* Espaço entre os itens */
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #e0e0e0;
+    padding: 20px; /* Espaço interno */
+    text-align: left; /* Texto à esquerda */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.h3{ margin-left: 20px;}
+p{ margin-left: 20px;}
+
+.grid1 {
+    width: 40%; /* Grid ocupa toda a largura */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 1 colunas */
+    gap: 15px; /* Espaço entre os itens */
+    padding: 20px;
+    height: 100%;
+}
+
+.grid-item1 {
+    background-color: #e0e0e0;
+    padding: 20px; /* Espaço interno */
+    text-align: right; /* Texto à esquerda */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
